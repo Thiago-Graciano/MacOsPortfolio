@@ -218,14 +218,14 @@ export {
 const WORK_LOCATION = {
   id: 1,
   type: "work",
-  name: "Work",
+  name: "Projetos",
   icon: "/icons/work.svg",
   kind: "folder",
   children: [
     // ▶ Project 1
     {
       id: 5,
-      name: "Nike Ecommerce Website Application",
+      name: "Thumblify",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-5", // icon position inside Finder
@@ -233,43 +233,43 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "Nike Project.txt",
+          name: "Thumblify.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "The Nike eCommerce website is a sleek and modern platform designed for shopping the latest Nike collections.",
-            "Instead of a simple online store, it delivers an immersive experience with bold visuals, interactive product displays, and smooth navigation.",
-            "Think of it like walking into a flagship Nike store—but right from your phone or laptop.",
-            "It's built with Next.js and Tailwind, ensuring fast performance, responsive design, and a clean, premium look.",
+            "O Thumblify é uma plataforma de geração de thumbnails com inteligência artificial, criada para tornar a criação de conteúdo visual mais rápida, simples e acessível.",
+            "Em vez de depender de ferramentas complexas de design, os usuários podem gerar thumbnails personalizadas a partir de suas próprias ideias utilizando inteligência artificial.",
+            "A plataforma combina uma interface moderna e intuitiva com recursos de geração por IA, transformando conceitos em visuais atrativos em poucos passos.",
+            "O projeto foi desenvolvido utilizando React, Tailwind CSS, Node.js, Express, MongoDB, Cloudinary e a API do Google Gemini.",
           ],
         },
         {
           id: 2,
-          name: "nike.com",
+          name: "Thumblify.com",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/fZdTYswuZjU?si=Awjl-pIst9e09_UU",
+          href: "https://github.com/Thiago-Graciano/Thumblify",
           position: "top-10 right-20",
         },
         {
           id: 4,
-          name: "nike.png",
+          name: "Thumblify.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
           position: "top-52 right-80",
-          imageUrl: "/images/project-1.png",
+          imageUrl: "https://raw.githubusercontent.com/Thiago-Graciano/Thumblify/6518078ada5e8ffd8d1d1cee7a4e61d0e788435b/frontend/src/assets/favicon.svg",
         },
         {
           id: 5,
-          name: "Design.fig",
+          name: "Ref.com",
           icon: "/images/plain.png",
           kind: "file",
           fileType: "fig",
-          href: "https://google.com",
+          href: "https://greatstack.dev/p/thumblify",
           position: "top-60 right-20",
         },
       ],
@@ -278,38 +278,38 @@ const WORK_LOCATION = {
     // ▶ Project 2
     {
       id: 6,
-      name: "AI Resume Analyzer",
+      name: "App de Finanças",
       icon: "/images/folder.png",
       kind: "folder",
-      position: "top-52 right-80",
+      position: "top-40 left-5",
       windowPosition: "top-[20vh] left-7",
       children: [
         {
           id: 1,
-          name: "AI Resume Analyzer Project.txt",
+          name: "App de Finanças.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 right-10",
           description: [
-            "AI Resume Analyzer is a smart tool that helps you perfect your resume with instant feedback.",
-            "Instead of guessing what recruiters want, you get AI-powered insights on keywords, formatting, and overall impact.",
-            "Think of it like having a career coach—pointing out strengths, fixing weaknesses, and boosting your chances of landing interviews.",
-            "It's built with Next.js and Tailwind, so it runs fast, looks professional, and works seamlessly on any device.",
+            "O App de Finanças é uma aplicação mobile desenvolvida para ajudar usuários a organizar e acompanhar sua vida financeira de forma simples e intuitiva.",
+            "O aplicativo permite registrar receitas e despesas, visualizar o histórico de transações e acompanhar a evolução das finanças através de gráficos e indicadores.",
+            "A proposta é transformar o controle financeiro em uma experiência prática, oferecendo ao usuário uma visão clara de seus gastos e ganhos.",
+            "O projeto foi desenvolvido com React Native, utilizando Redux, AsyncStorage, React Navigation e Axios.",
           ],
         },
         {
           id: 2,
-          name: "ai-resume-analyzer.com",
+          name: "Repositório no Github.link",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/iYOz165wGkQ?si=R1hs8Legl200m0Cl",
+          href: "https://github.com/Thiago-Graciano/Capacitacao-React-Native",
           position: "top-20 left-20",
         },
         {
           id: 4,
-          name: "ai-resume-analyzer.png",
+          name: "App de Finanças.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
@@ -331,7 +331,7 @@ const WORK_LOCATION = {
     // ▶ Project 3
     {
       id: 7,
-      name: "Food Delivery App",
+      name: "uTask 3.0",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-80",
@@ -339,30 +339,30 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "Food Delivery App Project.txt",
+          name: "uTask 3.0.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "Our Food Delivery App is a fast and convenient way to order meals from your favorite restaurants.",
-            "Instead of making calls or waiting in line, you can browse menus, customize orders, and track deliveries in real time.",
-            "Think of it like having your favorite restaurants in your pocket—ready to deliver anytime, anywhere.",
-            "It’s built with React Native, so it works smoothly on both iOS and Android with a clean, modern design.",
+            "O uTask 3.0 é uma aplicação desenvolvida para facilitar a organização de tarefas e aumentar a produtividade no dia a dia.",
+            "A plataforma permite criar, gerenciar e acompanhar tarefas de forma simples, ajudando o usuário a manter suas atividades organizadas e seus objetivos em dia.",
+            "A proposta é oferecer uma experiência prática e intuitiva para transformar uma lista de tarefas em um fluxo de trabalho mais organizado e eficiente.",
+            "O projeto foi desenvolvido com foco em uma interface moderna, responsiva e uma experiência de uso simples e objetiva.",
           ],
         },
         {
           id: 2,
-          name: "food-delivery-app.com",
+          name: "uTask 3.0.com",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/LKrX390fJMw?si=cExkuVhf2DTV9G2-",
+          href: "https://github.com/Thiago-Graciano/uTask-3.0",
           position: "top-10 right-20",
         },
         {
           id: 4,
-          name: "food-delivery-app.png",
+          name: "uTask 3.0.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
@@ -380,13 +380,57 @@ const WORK_LOCATION = {
         },
       ],
     },
+
+    // ▶ Project 5
+    {
+      id: 8,
+      name: "T. Ars Bot",
+      icon: "/images/folder.png",
+      kind: "folder",
+      position: "top-10 left-42",
+      windowPosition: "top-[20vh] left-7",
+      children: [
+        {
+          id: 1,
+          name: "T. Ars Bot.txt",
+          icon: "/images/txt.png",
+          kind: "file",
+          fileType: "txt",
+          position: "top-5 right-10",
+          description: [
+            "O T. Ars é um bot para Discord desenvolvido para oferecer diferentes funcionalidades e facilitar a interação e o gerenciamento de comunidades.",
+            "O projeto reúne comandos e recursos automatizados que tornam a experiência no servidor mais dinâmica, prática e divertida.",
+            "A ideia é centralizar diferentes ferramentas em um único bot, permitindo que os usuários interajam com os recursos diretamente através do Discord.",
+            "O projeto foi desenvolvido com foco em automação, integração com a plataforma Discord e criação de funcionalidades personalizadas.",
+          ],
+        },
+        {
+          id: 2,
+          name: "Repositório no Github.link",
+          icon: "/images/safari.png",
+          kind: "file",
+          fileType: "url",
+          href: "https://github.com/Thiago-Graciano/T.-Ars-bot",
+          position: "top-20 left-20",
+        },
+        {
+          id: 4,
+          name: "T. Ars Bot.png",
+          icon: "/images/image.png",
+          kind: "file",
+          fileType: "img",
+          position: "top-52 left-80",
+          imageUrl: "/images/project-2.png",
+        },
+      ],
+    },
   ],
 };
 
 const ABOUT_LOCATION = {
   id: 2,
   type: "about",
-  name: "About me",
+  name: "Sobre mim",
   icon: "/icons/info.svg",
   kind: "folder",
   children: [
@@ -439,7 +483,7 @@ const ABOUT_LOCATION = {
 const RESUME_LOCATION = {
   id: 3,
   type: "resume",
-  name: "Resume",
+  name: "Currículo",
   icon: "/icons/file.svg",
   kind: "folder",
   children: [
@@ -458,7 +502,7 @@ const RESUME_LOCATION = {
 const TRASH_LOCATION = {
   id: 4,
   type: "trash",
-  name: "Trash",
+  name: "Lixeira",
   icon: "/icons/trash.svg",
   kind: "folder",
   children: [
