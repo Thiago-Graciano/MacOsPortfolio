@@ -39,6 +39,7 @@ const Safari = () => {
                         />
                     </div>
                 </div>
+
                 <div className="flex items-center gap-5">
                     <Share className="icon" />
                     <Plus className="icon" />
@@ -60,7 +61,7 @@ const Safari = () => {
                                 <p>{date}</p>
                                 <h3>{title}</h3>
                                 <a href={link} target="_blank" rel="noopener noreferrer">
-                                    Clique para ver o Post! <MoveRight className="icon-hover"/>
+                                    Clique para ver o Post! <MoveRight className="icon-hover" />
                                 </a>
                             </div>
                         </div>
