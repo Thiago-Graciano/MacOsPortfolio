@@ -80,7 +80,7 @@ const blogPosts = [
     date: "18 Maio, 2025",
     title:
       "🚀 Hoje tive a oportunide de participar com a Unect Jr. de uma pauta sobre Gestão de Projetos e Responsabilização",
-    image: "/images/uTaskIconBlog.png",
+    image: "/images/ProjetosIcon1.png",
     link: "https://www.linkedin.com/posts/thiago-graciano-eng_gestaodeprojetos-scrum-kanban-activity-7473516281032339456-zlEh?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEV5JwQBFypcFEJpN0HDJVravK6OSoBR7Fg",
   },
   {
@@ -94,7 +94,7 @@ const blogPosts = [
     id: 3,
     date: "21 Abr, 2026",
     title: "Finalizei meu primeiro projeto real como dev: o T. Ars Bot. 🤖",
-    image: "/images/TarsIcon.png",
+    image: "/images/TarsIcon1.png",
     link: "https://lnkd.in/p/dvH8kVyT",
   },
 ];
