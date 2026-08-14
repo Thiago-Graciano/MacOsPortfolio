@@ -77,25 +77,25 @@ const dockApps = [
 const blogPosts = [
   {
     id: 1,
-    date: "Sep 2, 2025",
+    date: "18 Maio, 2025",
     title:
-      "TypeScript Explained: What It Is, Why It Matters, and How to Master It",
-    image: "/images/blog1.png",
-    link: "https://jsmastery.com/blog/typescript-explained-what-it-is-why-it-matters-and-how-to-master-it",
+      "🚀 Hoje tive a oportunide de participar com a Unect Jr. de uma pauta sobre Gestão de Projetos e Responsabilização",
+    image: "/images/ProjetosIcon1.png",
+    link: "https://www.linkedin.com/posts/thiago-graciano-eng_gestaodeprojetos-scrum-kanban-activity-7473516281032339456-zlEh?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEV5JwQBFypcFEJpN0HDJVravK6OSoBR7Fg",
   },
   {
     id: 2,
-    date: "Aug 28, 2025",
-    title: "The Ultimate Guide to Mastering Three.js for 3D Development",
-    image: "/images/blog2.png",
-    link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-three-js-for-3d-development",
+    date: "13 Ago, 2026",
+    title: "🚀 Oficialmente capacitado em React Native!",
+    image: "/images/capacitacaoReactNativeIcon.png",
+    link: "https://lnkd.in/p/dEvhXDWk",
   },
   {
     id: 3,
-    date: "Aug 15, 2025",
-    title: "The Ultimate Guide to Mastering GSAP Animations",
-    image: "/images/blog3.png",
-    link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-gsap-animations",
+    date: "21 Abr, 2026",
+    title: "Finalizei meu primeiro projeto real como dev: o T. Ars Bot. 🤖",
+    image: "/images/TarsIcon1.png",
+    link: "https://lnkd.in/p/dvH8kVyT",
   },
 ];
 
@@ -132,28 +132,28 @@ const socials = [
     text: "Github",
     icon: "/icons/github.svg",
     bg: "#f4656b",
-    link: "https://github.com/JavaScript-Mastery-Pro",
+    link: "https://github.com/Thiago-Graciano",
   },
   {
     id: 2,
-    text: "Platform",
+    text: "Email",
     icon: "/icons/atom.svg",
     bg: "#4bcb63",
-    link: "https://jsmastery.com/",
+    link: "mailto:msgraciano28@gmail.com",
   },
   {
     id: 3,
-    text: "Twitter/X",
+    text: "WhatsApp",
     icon: "/icons/twitter.svg",
     bg: "#ff866b",
-    link: "https://x.com/jsmasterypro",
+    link: "https://wa.link/fh9ur6",
   },
   {
     id: 4,
     text: "LinkedIn",
     icon: "/icons/linkedin.svg",
     bg: "#05b6f6",
-    link: "https://www.linkedin.com/company/javascriptmastery/posts/?feedView=all",
+    link: "https://www.linkedin.com/in/thiago-graciano-eng/",
   },
 ];
 
