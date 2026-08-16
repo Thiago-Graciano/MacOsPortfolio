@@ -19,7 +19,7 @@ const Resume = () => {
                 <h2>Cúrriculo.pdf</h2>
 
                 <a
-                    href="/files/Profile.pdf"
+                    href="/files/CurriculoThiagoGraciano.pdf"
                     download
                     className="cursor-pointer"
                     title="Baixe o meu currículo"
@@ -27,7 +27,7 @@ const Resume = () => {
                     <Download className="icon" />
                 </a>
             </div>
-            <Document file="files/Profile.pdf">
+            <Document file="files/CurriculoThiagoGraciano.pdf">
                 <Page
                     pageNumber={1}
                     renderTextLayer
