@@ -131,21 +131,21 @@ const socials = [
     id: 1,
     text: "Github",
     icon: "/icons/github.svg",
-    bg: "#f4656b",
+    bg: "#02030a",
     link: "https://github.com/Thiago-Graciano",
   },
   {
     id: 2,
     text: "Email",
-    icon: "/icons/atom.svg",
-    bg: "#4bcb63",
+    icon: "/icons/email.svg",
+    bg: "#ff866b",
     link: "mailto:msgraciano28@gmail.com",
   },
   {
     id: 3,
     text: "WhatsApp",
-    icon: "/icons/twitter.svg",
-    bg: "#ff866b",
+    icon: "/icons/whatsapp.svg",
+    bg: "#4bcb63",
     link: "https://wa.link/fh9ur6",
   },
   {
@@ -282,7 +282,7 @@ const WORK_LOCATION = {
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-40 left-5",
-      windowPosition: "top-[20vh] left-7",
+      windowPosition: "top-[18vh] left-2",
       children: [
         {
           id: 1,
@@ -335,7 +335,7 @@ const WORK_LOCATION = {
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-80",
-      windowPosition: "top-[33vh] left-7",
+      windowPosition: "top-[31vh] left-7",
       children: [
         {
           id: 1,
@@ -388,7 +388,7 @@ const WORK_LOCATION = {
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-42",
-      windowPosition: "top-[20vh] left-7",
+      windowPosition: "top-[44vh] left-7",
       children: [
         {
           id: 1,
