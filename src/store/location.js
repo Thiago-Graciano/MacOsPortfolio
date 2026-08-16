@@ -8,15 +8,16 @@ const useLocationStore = create(
     immer((set) => ({
         activeLocation: DEFAULT_LOCATION,
 
-        setActiveLocation: (location = null) =>
+        setActiveLocation: (location) =>
             set((state) => {
+                if (location === undefined) return;
                 state.activeLocation = location;
             }),
 
-    resetActiveLocation: () =>
+        resetActiveLocation: () =>
             set((state) => {
                 state.activeLocation = DEFAULT_LOCATION;
             })
     })))
 
-    export default useLocationStore;
+export default useLocationStore;
