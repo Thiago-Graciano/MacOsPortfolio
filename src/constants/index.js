@@ -416,7 +416,7 @@ const WORK_LOCATION = {
         {
           id: 4,
           name: "T. Ars Bot.png",
-          icon: "/images/image.png",
+          icon: "/images/Tars.png",
           kind: "file",
           fileType: "img",
           position: "top-52 left-80",
@@ -436,16 +436,16 @@ const ABOUT_LOCATION = {
   children: [
     {
       id: 1,
-      name: "me.png",
+      name: "eu.png",
       icon: "/images/image.png",
       kind: "file",
       fileType: "img",
       position: "top-10 left-5",
-      imageUrl: "/images/adrian.jpg",
+      imageUrl: "/images/Thiago-Unect2-400x400.png",
     },
     {
       id: 2,
-      name: "casual-me.png",
+      name: "eu-casual.png",
       icon: "/images/image.png",
       kind: "file",
       fileType: "img",
@@ -463,18 +463,17 @@ const ABOUT_LOCATION = {
     },
     {
       id: 4,
-      name: "about-me.txt",
+      name: "Sobre-mim.txt",
       icon: "/images/txt.png",
       kind: "file",
       fileType: "txt",
       position: "top-60 left-5",
-      subtitle: "Meet the Developer Behind the Code",
-      image: "/images/adrian.jpg",
+      subtitle: "Conheça o desenvolvedor por trás do código",
+      image: "/images/Thiago-Unect1-400x400.png",
       description: [
-        "Hey! I’m Adrian 👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
-        "I specialize in JavaScript, React, and Next.js—and I love making things feel smooth, fast, and just a little bit delightful.",
-        "I’m big on clean UI, good UX, and writing code that doesn’t need a search party to debug.",
-        "Outside of dev work, you'll find me tweaking layouts at 2AM, sipping overpriced coffee, or impulse-buying gadgets I absolutely convinced myself I needed 😅",
+        "Olá! Eu sou o Thiago 👋, desenvolvedor Fullstack e estudante de Engenharia de Computação, apaixonado por tecnologia e por transformar ideias em projetos reais.",
+        "Tenho experiência com desenvolvimento web e mobile, principalmente com React, TypeScript, React Native, JavaScript e Node.js.",
+        "Também me interesso por UI/UX, automação e inteligência artificial, buscando unir tecnologia e criatividade para criar experiências modernas e funcionais.",
       ],
     },
   ],
@@ -489,7 +488,7 @@ const RESUME_LOCATION = {
   children: [
     {
       id: 1,
-      name: "Resume.pdf",
+      name: "Curriculo.pdf",
       icon: "/images/pdf.png",
       kind: "file",
       fileType: "pdf",
