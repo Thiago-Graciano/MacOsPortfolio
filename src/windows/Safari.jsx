@@ -21,10 +21,10 @@ const Safari = () => {
 
                 <PanelLeft className="ml-10 icon" />
 
-                <dvi className="flex items-center gap-1 ml-5">
+                <div className="flex items-center gap-1 ml-5">
                     <ChevronLeft className="icon" />
                     <ChevronRight className="icon" />
-                </dvi>
+                </div>
 
                 <div className="flex-1 flex-center gap-3">
                     <ShieldHalf className="icon" />
