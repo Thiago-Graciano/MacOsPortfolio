@@ -42,25 +42,25 @@ Entre as principais abordagens utilizadas estão:
 
 ## 🛠️ Como executar
 
-### 1. Clone o repositório
+### 1. Clone o repositório.
 
 ```bash
 git clone https://github.com/Thiago-Graciano/MacOsPortfolio.git
 ```
 
-### 2. Acesse a pasta
+### 2. Acesse a pasta.
 
 ```bash
 cd MacOsPortfolio
 ```
 
-### 3. Instale as dependências
+### 3. Instale as dependências.
 
 ```bash
 npm install
 ```
 
-### 4. Inicie o servidor de desenvolvimento
+### 4. Inicie o servidor de desenvolvimento.
 
 ```bash
 npm run dev
